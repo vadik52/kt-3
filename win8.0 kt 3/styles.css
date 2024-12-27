@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #3b3b3b;
+}
+.menu {
+    height: 100vh;
+    padding: 100px 0 100px 100px;
+    background-color: #0d001b;
+}
+.min {
+    width: 100px;
+    height: 100px;
+    background: #000;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.med {
+    width: 210px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.big {
+    width: 210px;
+    height: 210px;
+    margin-bottom: 10px;
+}
+.ri0 {
+    margin-right: 0;
+}
+.bo0 {
+    margin-bottom: 0;
+}
+h1, h3 {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    font-weight: 400;
+    margin: 0;
+}
+main {
+    height: 590px;
+    font-size: 0;
+    overflow-x: auto;
+}
+.block {
+    width: 2000px;
+    padding-right: 100px;
+}
+.blo {
+    height: 540px;
+    width: 210px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.blok {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.bl_1 *:not(.blo) {
+    background: rgb(170, 189, 0);
+}
+.bl_2 *:not(.blo) {
+    background: rgb(0, 143, 55);
+}
+.bl_3 *:not(.blo) {
+    background: rgb(88, 0, 105);
+}
+.bl_4 *:not(.blo) {
+    background: rgb(161, 92, 1);
+}
+.bl_5 *:not(.blo) {
+    background: rgb(4, 0, 233);
+}
+.bl_6 *:not(.blo) {
+    background: rgb(1, 222, 238);
+}
